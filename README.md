@@ -34,7 +34,7 @@ To publish your library to maven central you need to follow these steps:
 5. Add secrets for publishing as shown [here](https://vanniktech.github.io/gradle-maven-publish-plugin/central/#secrets)
 6. Don't forget to add secrets as repository secrets for GitHub actions as shown [here](https://docs.github.com/en/actions/security-guides/using-secrets-in-github-actions)
 
-To publish your artifacts to central portal you can either run `./gradlew publishAllPublicationsToMavenCentralRepository` locally or create a GitBub release
+To publish your artifacts to central portal you can either run `./gradlew publishAllPublicationsToMavenCentralRepository` locally or create a GitHub release
 
 > [!IMPORTANT]  
 > Don't forget to change publishing version in `PublishConventions.kt`

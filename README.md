@@ -32,7 +32,7 @@ To publish your library to maven central you need to follow these steps:
 3. Generate a token as shown [here](https://central.sonatype.org/publish/generate-portal-token/)
 4. Generate gpg key using your sonatype email, upload it, then confirm your email using the received link in your inbox
 5. Add secrets for publishing as shown [here](https://vanniktech.github.io/gradle-maven-publish-plugin/central/#secrets)
-6. Don't forget to add secrets as environment variables for GitHub actions as shown [here](https://docs.github.com/en/actions/learn-github-actions/variables)
+6. Don't forget to add secrets as repository secrets for GitHub actions as shown [here](https://docs.github.com/en/actions/security-guides/using-secrets-in-github-actions)
 
 To publish your artifacts to central portal you can either run `./gradlew publishAllPublicationsToMavenCentralRepository` locally or create a GitBub release
 

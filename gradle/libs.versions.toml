@@ -3,7 +3,7 @@
 android-gradle-plugin = "8.3.2"
 
 # Kotlin
-kotlin = "1.9.24"
+kotlin = "2.0.20"
 
 # Docs
 dokka = "1.9.10"
@@ -23,8 +23,8 @@ maven-publish-plugin = { module = "com.vanniktech.maven.publish.base:com.vannikt
 
 [plugins]
 # Android
-android-application = { id = "com.android.application", version.ref = "android_gradle_plugin" }
-android-library = { id = "com.android.library", version.ref = "android_gradle_plugin" }
+android-application = { id = "com.android.application", version.ref = "android-gradle-plugin" }
+android-library = { id = "com.android.library", version.ref = "android-gradle-plugin" }
 
 # Kotlin Multiplatform
 kotlin-multiplatform = { id = "org.jetbrains.kotlin.multiplatform", version.ref = "kotlin" }

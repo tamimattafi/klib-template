@@ -40,6 +40,5 @@ To publish your artifacts to central portal you can either run `./gradlew publis
 > Don't forget to change publishing version in `PublishConventions.kt`
 
 ## Future plans
-1. Upgrade to Kotlin 2.0.0
-2. Add testing examples and GitHub actions for the matter
-3. Add lint example and GitHub actions for the matter
+1. Add testing examples and GitHub actions for the matter
+2. Add lint example and GitHub actions for the matter

@@ -54,6 +54,7 @@ captures/
 # .idea/workspace.xml - remove # and delete .idea if it better suit your needs.
 .gradle
 .navigation
+.kotlin
 output.json
 output-metadata.json
 
